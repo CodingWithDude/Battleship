@@ -7,6 +7,24 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <h1>test</h1>
+    <header>
+      <p>Dude, You Sunk My</p>
+      <h1>Battleship!</h1>
+    </header>
+    <div id="main-board-container" class="main-board-container">
+      <div id="user-container" class="user-container">
+        <h1>User</h1>
+        <div id="user-board-container" class="user-board-container"></div>
+        <div id="user-ships-container" class="user-ships-container"></div>
+      </div>
+
+      <div class="computer-container">
+        <h1>Computer</h1>
+        <div
+          id="computer-board-container"
+          class="computer-board-container"
+        ></div>
+      </div>
+    </div>
   </body>
 </html>
